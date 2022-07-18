@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Shridhar-cn-deploy-app/static/css/main.5305fd10.css",
+    "main.js": "/Shridhar-cn-deploy-app/static/js/main.1ba7b91f.js",
+    "index.html": "/Shridhar-cn-deploy-app/index.html",
+    "main.5305fd10.css.map": "/Shridhar-cn-deploy-app/static/css/main.5305fd10.css.map",
+    "main.1ba7b91f.js.map": "/Shridhar-cn-deploy-app/static/js/main.1ba7b91f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5305fd10.css",
+    "static/js/main.1ba7b91f.js"
+  ]
+}
