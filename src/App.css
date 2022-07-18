@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+/*------------------- NavBAr component ------------------------------*/
+.nav {
+  background-color: rgb(85, 85, 85);
+  width: 100vw;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 900;
+  position: relative;
+  text-align: center;
+}
+/*----------------------------- NavBar home button -----------------------------------*/
+#home-btn {
+  position: absolute;
+  top: 28%;
+  right: 50px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20%;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+#home-btn a {
+  color: white;
+}
+
+
+
+/*----------------------------- Read component -------------------------------------*/
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 2px solid rgb(211, 209, 209);
+  border-left: 2px solid rgb(211, 209, 209);
+  border-top: 2px solid rgb(211, 209, 209);
+  min-width: 300px;
+  width: 70vw;
+}
+
+.title {
+  font-size: 1rem;
+  padding-right: 20px;
+  display: flex;
+}
+
+.s-no {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: scale(0.98);
+}
+
+.edit {
+  font-size: 1.3rem;
+  color: green;
+}
+
+.done {
+  font-size: 1.3rem;
+  color: rgb(236, 51, 51);
+}
+
+.add-task {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: rgb(85, 85, 85);
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+}
+
+.add-task a {
+  color: white;
+}
+
+
+/* create component */
+
+#task-title {
+  width: 30vw;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+#task-title:focus {
+  outline: none;
+}
